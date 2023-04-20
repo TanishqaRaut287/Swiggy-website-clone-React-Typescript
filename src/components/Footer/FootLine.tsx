@@ -38,9 +38,9 @@ const FootLine = () => {
                     src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_284/Logo_f5xzza" />
             </Box>
 
-            <Box sx={{ flex: 1.5, display: "flex", marginLeft: { xs: "2.5rem", lg: "10px" }, marginTop: { xs: '0.2rem', lg: '6px' }, marginRight: "300px" }}>
-                <Typography sx={{ color: "white", marginLeft: { md: '1rem' }, fontSize: 20 }}>
-                    © 2023 Swiggy
+            <Box sx={{ flex: 1.5, display: "flex", marginLeft: { xs: "2.5rem", lg: "10px" }, marginTop: { xs: '0.2rem', lg: '15px' }, marginRight: "300px" }}>
+                <Typography sx={{ color: "white", marginLeft: { md: '1rem' }, fontSize: 14 }}>
+                    © 2023 Swiggy Clone by Tanishqa Raut
                 </Typography>
             </Box>
 

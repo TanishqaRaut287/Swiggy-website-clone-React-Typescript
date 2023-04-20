@@ -607,6 +607,18 @@ const titleList = [
     "Yavatmal",
 ]
 
+const citiesSX = { 
+    marginTop: "15px", 
+    color: "white", 
+    textAlign: "left",
+    fontWeight: "200px",
+
+    '&:hover': {
+        color: "white",
+        fontWeight: "bold",
+    }
+}
+
 const DeliverTo = () => {
     return (
         <Box
@@ -638,7 +650,7 @@ const DeliverTo = () => {
                                 <Grid item xs={4} lg={3} key={index} >
                                     <Typography
                                         fontSize={14}
-                                        sx={{ marginTop: "15px", color: "white", textAlign: "left" }}
+                                        sx={citiesSX}
                                         key={index}
                                     >
                                         {titles}

@@ -63,7 +63,7 @@ const Division3 = () => {
                         <Grid item xs={6}>
                             <img style={imgStyle} src={images.phone1} />
                         </Grid>
-                        <Grid item xs={6} marginTop="80px">
+                        <Grid item xs={6} marginTop="100px" marginBottom="-23px">
                             <img style={imgStyle} src={images.phone2} />
                         </Grid>
                     </Grid>

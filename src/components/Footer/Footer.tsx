@@ -43,7 +43,12 @@ const menuItemsSX = {
     fontFamily: "ProximaNova,arial, Helvetica Neue, sans serif",
     fontSize: 14,
     marginTop: "15px",
-    color: "white"
+    color: "white",
+
+    '&:hover': {
+        color: "white",
+        fontWeight: "bold",
+    }
 }
 
 const Footer = () => {
@@ -128,7 +133,7 @@ const Footer = () => {
             <hr style={{ color: "white", width: '90%' }} />
 
             <FootLine />
-            
+
         </div>
     );
 };
